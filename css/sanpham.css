@@ -1,0 +1,50 @@
+.sanphanvjp button{
+    width: 180px;
+    margin: 0 auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 2px solid;
+    color: rgb(131, 6, 6);
+    font-weight: bold;
+}
+.sanphanvjp button:hover{
+    background-color: rgb(170, 58, 58);
+    color: antiquewhite;
+}
+
+.lien-he b{
+    font-family: 'Courgette', cursive;
+    font-weight: 100;
+}
+
+/* VIEW_PRODUCT */
+.view_product {
+    margin-top: 30px;
+    width: 90%;
+    height: max-content;
+    border: 3px solid black;
+    display: none;
+    z-index: 100;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    
+  }
+.view_product.open {
+  display: block;
+}
+.js-view_product-container {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.js-view_product-btn{
+  width: 100%;
+}
+.js-view_product-close {
+  float: right;
+  padding-top: 10px;
+  padding-right: 10px;
+  cursor: pointer;
+}
+/* VIEW_PRODUCT */
